@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A44D67BB1FA11F770077B5C8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44D67BA1FA11F770077B5C8 /* User.swift */; };
+		A44D67BD1FA11F8C0077B5C8 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44D67BC1FA11F8C0077B5C8 /* UserStore.swift */; };
 		A49C763C1F9FB7E6006CED60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C763B1F9FB7E6006CED60 /* AppDelegate.swift */; };
 		A49C76411F9FB7E6006CED60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49C763F1F9FB7E6006CED60 /* Main.storyboard */; };
 		A49C76431F9FB7E6006CED60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49C76421F9FB7E6006CED60 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A44D67BA1FA11F770077B5C8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A44D67BC1FA11F8C0077B5C8 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		A49C76381F9FB7E6006CED60 /* SphereGeoMetrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphereGeoMetrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49C763B1F9FB7E6006CED60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A49C76401F9FB7E6006CED60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 		A49C76511F9FB8A1006CED60 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A44D67BA1FA11F770077B5C8 /* User.swift */,
+				A44D67BC1FA11F8C0077B5C8 /* UserStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			files = (
 				A49C763C1F9FB7E6006CED60 /* AppDelegate.swift in Sources */,
 				A49C764E1F9FB873006CED60 /* DataInputViewController.swift in Sources */,
+				A44D67BD1FA11F8C0077B5C8 /* UserStore.swift in Sources */,
+				A44D67BB1FA11F770077B5C8 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
